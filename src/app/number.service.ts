@@ -6,7 +6,6 @@ import { Injectable } from '@angular/core';
 export class NumberService {
 
   constructor() { }
-
   chkPrime(num: number): boolean {
     if (num <= 1) {
       return false;
@@ -18,5 +17,4 @@ export class NumberService {
     }
     return true;
   }
-
 }

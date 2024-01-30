@@ -6,11 +6,9 @@ import { Injectable } from '@angular/core';
 export class StringService {
 
   constructor() { }
-
   CountCapital(b:string): number
   {
    return b.split('').filter(char => char === char.toUpperCase()).length;   
   }
-
 
 }
